@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
 }
@@ -441,7 +441,7 @@ main hr {
 /* Navigation Arrows */
 .nav-arrows {
     position: absolute;
-    top: 240%;
+    top: 255%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -474,6 +474,10 @@ main hr {
     .product {
         min-width: 50%;
     }
+    .nav-arrows {
+        top: 520%;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -482,7 +486,7 @@ main hr {
     }
 
     .nav-arrows {
-        top: 467%;
+        top: 510%;
     }
 
     .prev,
@@ -596,7 +600,7 @@ main hr {
 
 .product-image {
     width: 100%;
-    height: 200px;
+    height: 220px;
     transition: transform 0.5s ease;
 }
 
@@ -796,7 +800,7 @@ main hr {
 /* Titles */
 .icon-box h4 {
     font-size: 1.2rem;
-    color: #333;
+    /* color: #333; */
     margin: 0;
     transition: color 0.3s ease-in-out;
 }
