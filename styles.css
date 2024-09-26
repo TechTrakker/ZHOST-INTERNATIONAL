@@ -475,7 +475,7 @@ main hr {
         min-width: 50%;
     }
     .nav-arrows {
-        top: 520%;
+       display: none;
     }
 
 }
@@ -486,7 +486,7 @@ main hr {
     }
 
     .nav-arrows {
-        top: 510%;
+         display: none;
     }
 
     .prev,
