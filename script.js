@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+ document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.getElementById('nav-menu');
 
@@ -84,7 +84,7 @@ function moveSlide(n) {
 // Auto-move slider every 5 seconds
 setInterval(() => {
     moveSlide(1);
-}, 5000);
+}, 1000);
 
 // FAQ JavaScript*******************************************************************************************
 
